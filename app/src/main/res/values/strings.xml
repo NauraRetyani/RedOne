@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">RedOne</string>
+    <string name="message">Message</string>
+    <string name="chat">Chat</string>
+    <string name="profile">Profile</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="contact">Kontak Relasi</string>
+    <string name="search">Pencarian Donor</string>
+    <string name="history">Riwayat</string>
+    <string name="setting">Pengaturan</string>
+    <string name="help">Bantuan</string>
+    <string name="logout">Keluar</string>
 </resources>
