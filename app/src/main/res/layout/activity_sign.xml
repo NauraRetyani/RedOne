@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_8"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".SignActivity">
+
+    <EditText
+        android:layout_width="@dimen/margin_300"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_55"
+        android:layout_marginBottom="@dimen/margin_16"
+        android:hint="@string/loginhint"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_width="@dimen/margin_300"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_16"
+        android:hint="@string/signup"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_width="@dimen/margin_300"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_50"
+        android:background="@color/colorPrimaryLight"
+        android:text="@string/login"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="@dimen/margin_300"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_50"
+        android:gravity="center"
+        android:text="OR" />
+
+    <Button
+        android:layout_width="@dimen/margin_300"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryLight"
+        android:text="@string/logingoogle"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="@dimen/margin_55"/>
+
+    <TextView
+        android:layout_width="@dimen/margin_300"
+        android:layout_height="wrap_content"
+        android:text="@string/donthaveaccount"
+        android:gravity="center"/>
+
+</LinearLayout>

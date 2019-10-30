@@ -11,7 +11,8 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher_round"/>
+        android:src="@mipmap/ic_launcher_round" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,11 +20,12 @@
         android:text="Red One"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@android:color/white"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="blood.donor@redone.com"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/white" />
 
 </LinearLayout>
