@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_8"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="@dimen/margin_300"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/savelife"
+        android:textSize="@dimen/text_18" />
+
+    <Button
+        android:layout_width="@dimen/margin_300"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_50"
+        android:background="@color/colorPrimaryLight"
+        android:text="@string/logingoogle"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="@dimen/margin_300"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_50"
+        android:gravity="center"
+        android:text="OR" />
+
+    <EditText
+        android:layout_width="@dimen/margin_300"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_16"
+        android:hint="@string/signuphint"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_width="@dimen/margin_300"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_16"
+        android:hint="@string/fullname"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="@dimen/margin_300"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_16"
+        android:hint="@string/username"
+        android:inputType="text" />
+
+    <EditText
+        android:layout_width="@dimen/margin_300"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_16"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_width="@dimen/margin_300"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_16"
+        android:background="@color/colorPrimaryLight"
+        android:text="@string/next"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="@dimen/margin_300"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/haveaccount" />
+
+</LinearLayout>

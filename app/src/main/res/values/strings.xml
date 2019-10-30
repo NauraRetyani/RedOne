@@ -25,4 +25,11 @@
     <string name="login">Login</string>
     <string name="logingoogle">Continue with Google</string>
     <string name="donthaveaccount">Don\'t have an account? Sign up.</string>
+    <string name="signuphint">Mobile number or email</string>
+    <string name="fullname">Fullname</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="next">Next</string>
+    <string name="savelife">Sign up to save a life</string>
+    <string name="haveaccount">Have an account? Log in</string>
 </resources>

@@ -21,7 +21,7 @@
         android:layout_width="@dimen/margin_300"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/margin_16"
-        android:hint="@string/signup"
+        android:hint="@string/password"
         android:inputType="textPassword" />
 
     <Button
@@ -42,15 +42,15 @@
     <Button
         android:layout_width="@dimen/margin_300"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_55"
         android:background="@color/colorPrimaryLight"
         android:text="@string/logingoogle"
-        android:textColor="@android:color/white"
-        android:layout_marginBottom="@dimen/margin_55"/>
+        android:textColor="@android:color/white" />
 
     <TextView
         android:layout_width="@dimen/margin_300"
         android:layout_height="wrap_content"
-        android:text="@string/donthaveaccount"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:text="@string/donthaveaccount" />
 
 </LinearLayout>
