@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="@dimen/margin_8"
+    android:background="@color/pink"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".SignUpActivity">
@@ -14,6 +14,7 @@
         android:layout_marginBottom="20dp"
         android:gravity="center"
         android:text="@string/savelife"
+        android:textColor="@color/red"
         android:textSize="@dimen/text_18" />
 
     <Button
@@ -30,12 +31,14 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/margin_50"
         android:gravity="center"
-        android:text="OR" />
+        android:text="OR"
+        android:textColor="@color/gray" />
 
     <EditText
         android:layout_width="@dimen/margin_300"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/margin_16"
+        android:background="@drawable/edit_text"
         android:hint="@string/signuphint"
         android:inputType="textEmailAddress" />
 
@@ -43,6 +46,7 @@
         android:layout_width="@dimen/margin_300"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/margin_16"
+        android:background="@drawable/edit_text"
         android:hint="@string/fullname"
         android:inputType="text" />
 
@@ -50,6 +54,7 @@
         android:layout_width="@dimen/margin_300"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/margin_16"
+        android:background="@drawable/edit_text"
         android:hint="@string/username"
         android:inputType="text" />
 
@@ -57,6 +62,7 @@
         android:layout_width="@dimen/margin_300"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/margin_16"
+        android:background="@drawable/edit_text"
         android:hint="@string/password"
         android:inputType="textPassword" />
 
@@ -69,11 +75,26 @@
         android:text="@string/next"
         android:textColor="@android:color/white" />
 
-    <TextView
-        android:id="@+id/tv_login"
-        android:layout_width="@dimen/margin_300"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/haveaccount" />
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/haveaccount"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/login"
+            android:textColor="@color/red" />
+    </LinearLayout>
 
 </LinearLayout>

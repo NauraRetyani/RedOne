@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="@dimen/margin_8"
+    android:background="@color/pink"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_55"
         android:layout_marginBottom="@dimen/margin_16"
+        android:background="@drawable/edit_text"
         android:hint="@string/loginhint"
         android:inputType="textEmailAddress" />
 
@@ -21,6 +22,7 @@
         android:layout_width="@dimen/margin_300"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/margin_16"
+        android:background="@drawable/edit_text"
         android:hint="@string/password"
         android:inputType="textPassword" />
 
@@ -38,22 +40,37 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/margin_50"
         android:gravity="center"
-        android:text="OR" />
+        android:text="OR"
+        android:textColor="@color/gray" />
 
     <Button
         android:id="@+id/btn_loggoogle"
         android:layout_width="@dimen/margin_300"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_55"
         android:background="@drawable/botton"
         android:text="@string/logingoogle"
-        android:textColor="@android:color/white"
-        android:layout_marginBottom="@dimen/margin_55"/>
+        android:textColor="@android:color/white" />
 
-    <TextView
-        android:id="@+id/tv_signup"
-        android:layout_width="@dimen/margin_300"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/donthaveaccount"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/donthaveaccount"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/tv_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/signup"
+            android:textColor="@color/red" />
+    </LinearLayout>
 
 </LinearLayout>

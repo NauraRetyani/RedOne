@@ -11,6 +11,8 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.google.android.material.navigation.NavigationView;
@@ -49,6 +51,23 @@ public class ToFragmentActivity extends AppCompatActivity implements NavigationV
                     new SearchFragment()).commit();
             navigationView.setCheckedItem(R.id.nav_search);
         }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_main,menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.action_notif:
+
+        }
+        return true;
+
     }
 
     @Override
@@ -107,6 +126,8 @@ public class ToFragmentActivity extends AppCompatActivity implements NavigationV
             case R.id.nav_logout:
                 Intent intent = new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(intent);
+
+                
         }
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;

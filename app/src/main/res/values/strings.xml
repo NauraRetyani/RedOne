@@ -22,15 +22,16 @@
     <string name="kantong">kantong</string>
     <string name="signup">Sign Up</string>
     <string name="loginhint">Phone number, username or email</string>
-    <string name="login">Login</string>
+    <string name="login">Log In</string>
     <string name="logingoogle">Continue with Google</string>
-    <string name="donthaveaccount">Don\'t have an account? Sign up.</string>
+    <string name="donthaveaccount">Don\'t have an account?</string>
     <string name="signuphint">Mobile number or email</string>
     <string name="fullname">Fullname</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="next">Next</string>
     <string name="savelife">Sign up to save a life</string>
-    <string name="haveaccount">Have an account? Log in</string>
+    <string name="haveaccount">Have an account?</string>
     <string name="submit">Submit</string>
+    <string name="rs">Pilih Rumah Sakit</string>
 </resources>

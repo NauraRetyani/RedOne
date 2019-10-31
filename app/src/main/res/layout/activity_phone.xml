@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_margin="@dimen/margin_8"
+    android:background="@color/pink"
     tools:context=".PhoneActivity">
 
     <ImageView
@@ -22,7 +22,8 @@
         android:layout_gravity="center"
         android:text="+62 "
         android:layout_marginBottom="@dimen/margin_55"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:background="@drawable/edit_text"/>
     <Button
         android:id="@+id/btn_submit"
         android:layout_width="@dimen/margin_300"
