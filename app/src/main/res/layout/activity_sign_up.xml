@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="@dimen/margin_8"
-    android:gravity="center_horizontal"
-    android:orientation="vertical">
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
 
     <TextView
         android:layout_width="@dimen/margin_300"
@@ -15,10 +17,11 @@
         android:textSize="@dimen/text_18" />
 
     <Button
+        android:id="@+id/btn_signgoogle"
         android:layout_width="@dimen/margin_300"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/margin_50"
-        android:background="@color/colorPrimaryLight"
+        android:background="@drawable/botton"
         android:text="@string/logingoogle"
         android:textColor="@android:color/white" />
 
@@ -58,14 +61,16 @@
         android:inputType="textPassword" />
 
     <Button
+        android:id="@+id/btn_next"
         android:layout_width="@dimen/margin_300"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/margin_16"
-        android:background="@color/colorPrimaryLight"
+        android:background="@drawable/botton"
         android:text="@string/next"
         android:textColor="@android:color/white" />
 
     <TextView
+        android:id="@+id/tv_login"
         android:layout_width="@dimen/margin_300"
         android:layout_height="wrap_content"
         android:gravity="center"

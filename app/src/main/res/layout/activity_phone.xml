@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin_8"
+    tools:context=".PhoneActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_300"
+        android:src="@drawable/phone"
+        android:layout_gravity="center"
+        android:background="@color/red"
+        android:layout_marginBottom="100dp"/>
+
+    <EditText
+        android:layout_width="@dimen/margin_300"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="+62 "
+        android:layout_marginBottom="@dimen/margin_55"
+        android:inputType="number"/>
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="@dimen/margin_300"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/submit"
+        android:background="@drawable/botton"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

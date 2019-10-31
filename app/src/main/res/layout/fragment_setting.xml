@@ -8,11 +8,12 @@
     <TextView
         android:layout_margin="@dimen/margin_8"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryLight"
+        android:layout_height="@dimen/margin_50"
+        android:background="@drawable/botton"
         android:text="@string/profile"
+        android:gravity="center"
         android:textColor="@android:color/white"
-        android:textSize="@dimen/text_25" />
+        android:textSize="23sp" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -23,10 +24,10 @@
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/img_setting"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
             android:layout_marginLeft="@dimen/margin_16"
-            android:layout_marginTop="@dimen/margin_50"
+            android:layout_marginTop="70dp"
             android:src="@android:color/darker_gray" />
 
         <LinearLayout
@@ -39,7 +40,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/margin_50"
+                android:layout_marginTop="70dp"
                 android:layout_marginBottom="@dimen/margin_8"
                 android:text="Nama Pengguna"
                 android:textSize="@dimen/text_18" />
