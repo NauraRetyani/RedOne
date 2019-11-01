@@ -8,6 +8,13 @@
     android:orientation="vertical"
     tools:context=".SignUpActivity">
 
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_red_nobg"
+        android:layout_marginBottom="@dimen/margin_50"/>
+
+
     <TextView
         android:layout_width="@dimen/margin_300"
         android:layout_height="wrap_content"

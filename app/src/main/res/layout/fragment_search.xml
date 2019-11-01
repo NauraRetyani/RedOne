@@ -35,27 +35,27 @@
                 android:layout_width="@dimen/margin_55"
                 android:layout_height="@dimen/margin_55"
                 android:layout_marginRight="@dimen/margin_16"
-                android:src="@android:color/darker_gray" />
+                android:src="@drawable/a" />
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/circle_b"
                 android:layout_width="@dimen/margin_55"
                 android:layout_height="@dimen/margin_55"
                 android:layout_marginRight="@dimen/margin_16"
-                android:src="@android:color/darker_gray" />
+                android:src="@drawable/b" />
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/circle_ab"
                 android:layout_width="@dimen/margin_55"
                 android:layout_height="@dimen/margin_55"
                 android:layout_marginRight="@dimen/margin_16"
-                android:src="@android:color/darker_gray" />
+                android:src="@drawable/o" />
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/circle_o"
                 android:layout_width="@dimen/margin_55"
                 android:layout_height="@dimen/margin_55"
-                android:src="@android:color/darker_gray" />
+                android:src="@drawable/ab" />
 
         </LinearLayout>
 
@@ -80,14 +80,14 @@
                 android:layout_width="@dimen/margin_55"
                 android:layout_height="@dimen/margin_55"
                 android:layout_marginRight="@dimen/margin_16"
-                android:src="@android:color/darker_gray" />
+                android:src="@drawable/plus" />
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/rhesus_min"
                 android:layout_width="@dimen/margin_55"
                 android:layout_height="@dimen/margin_55"
                 android:layout_marginRight="@dimen/margin_16"
-                android:src="@android:color/darker_gray" />
+                android:src="@drawable/min" />
         </LinearLayout>
 
         <EditText

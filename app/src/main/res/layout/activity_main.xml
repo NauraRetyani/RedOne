@@ -9,10 +9,15 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_red_nobg"
+        android:layout_marginBottom="@dimen/margin_50"/>
+
     <EditText
         android:layout_width="@dimen/margin_300"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_55"
         android:layout_marginBottom="@dimen/margin_16"
         android:background="@drawable/edit_text"
         android:hint="@string/loginhint"
