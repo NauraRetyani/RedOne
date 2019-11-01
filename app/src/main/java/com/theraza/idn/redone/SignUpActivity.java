@@ -18,8 +18,6 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
         Button next = findViewById(R.id.btn_next);
         next.setOnClickListener(this);
 
-        Button google = findViewById(R.id.btn_signgoogle);
-        google.setOnClickListener(this);
 
         TextView login = findViewById(R.id.tv_login);
         login.setOnClickListener(this);
@@ -36,10 +34,8 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
                 Intent intent1 = new Intent(SignUpActivity.this, MainActivity.class);
                 startActivity(intent1);
                 break;
-            case R.id.btn_signgoogle:
-                Intent intent2 = new Intent(SignUpActivity.this, GoogleActivity.class);
-                startActivity(intent2);
-        }
 
+
+        }
     }
 }

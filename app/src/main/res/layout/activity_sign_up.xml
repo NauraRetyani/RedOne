@@ -11,28 +11,12 @@
     <TextView
         android:layout_width="@dimen/margin_300"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="30dp"
         android:gravity="center"
         android:text="@string/savelife"
         android:textColor="@color/red"
         android:textSize="@dimen/text_18" />
 
-    <Button
-        android:id="@+id/btn_signgoogle"
-        android:layout_width="@dimen/margin_300"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/margin_50"
-        android:background="@drawable/botton"
-        android:text="@string/logingoogle"
-        android:textColor="@android:color/white" />
-
-    <TextView
-        android:layout_width="@dimen/margin_300"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/margin_50"
-        android:gravity="center"
-        android:text="OR"
-        android:textColor="@color/gray" />
 
     <EditText
         android:layout_width="@dimen/margin_300"
