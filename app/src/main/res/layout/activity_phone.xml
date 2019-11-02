@@ -4,33 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/phone"
+    android:gravity="center"
     android:orientation="vertical"
-    android:background="@color/pink"
     tools:context=".PhoneActivity">
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/margin_300"
-        android:src="@drawable/phone"
-        android:layout_gravity="center"
-        android:background="@color/red"
-        android:layout_marginBottom="100dp"/>
 
     <EditText
         android:layout_width="@dimen/margin_300"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="+62 "
+        android:layout_height="@dimen/margin_60"
         android:layout_marginBottom="@dimen/margin_55"
-        android:inputType="number"
-        android:background="@drawable/edit_text"/>
+        android:layout_marginTop="400dp"
+        android:background="@drawable/namdua"
+        android:gravity="center"
+        android:hint="@string/fon"
+        android:inputType="number"/>
+
     <Button
         android:id="@+id/btn_submit"
         android:layout_width="@dimen/margin_300"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/submit"
+        android:layout_height="@dimen/margin_60"
         android:background="@drawable/botton"
+        android:text="@string/submit"
         android:textColor="@android:color/white" />
 
 </LinearLayout>
