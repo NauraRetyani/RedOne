@@ -35,4 +35,8 @@
     <string name="submit">Submit</string>
     <string name="rs">Pilih Rumah Sakit</string>
     <string name="fon">Your Phone Number</string>
+    <string name="golongan">Golongan Darah : </string>
+    <string name="findpeople">orang ditemukan</string>
+    <string name="pmi">Stok Darah PMI</string>
+    <string name="user">Pengguna Aplikasi</string>
 </resources>
